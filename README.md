@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Vedery
 - 👀 I’m interested in prograamming
 - 🌱 I’m currently learning C++
-- 💞️ I’m looking to collaborate on ...
+<!--- 💞️ I’m looking to collaborate on ...-->
 - 📫 How to reach me:
   - Discord: @Vedery'#1251
   - E-mail: vedery@outlook.fr
