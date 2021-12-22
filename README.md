@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Vedery
+- 👋 Hi, I’m Vede'
 - 👀 I’m interested in prograamming
 - 🌱 I’m currently learning C++ <!--- 💞️ I’m looking to collaborate on ...-->
 - 📫 How to reach me:
