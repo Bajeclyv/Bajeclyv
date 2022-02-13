@@ -2,8 +2,8 @@
 - 👀 I’m interested in prograamming
 - 🌱 I’m currently learning C++ <!--- 💞️ I’m looking to collaborate on ...-->
 - 📫 How to reach me:
-  - Discord: Vede'#1251
-  - E-mail: vedery@outlook.fr
+  - Discord: Fulbion#1251
+  - E-mail: fulbion@outlook.fr
 
 <!---
 Fulbion/Fulbion is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
