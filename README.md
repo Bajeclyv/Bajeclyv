@@ -7,32 +7,33 @@
 #include <iostream>
 #include <string>
 #include <vector>
+using namespace std; // Cursed line, it's just to make it clear :P
 
 class Person
 {
 public:
-    Person(const std::string& i_username, const int i_age, const std::string& i_country, const std::string& i_job, const std::vector<std::string>& i_languages) :
-        m_username(i_username), m_age(i_age), m_country(i_country), m_job(i_job), m_languages(i_languages)
+    Person(string username, int age, string country, string job, vector<string> languages) :
+        m_username(username), m_age(age), m_country(country), m_job(job), m_languages(languages)
     {
     }
 
     void details()
     {
-        std::cout << "Hello, my name's @" << m_username << ", I'm " << m_age << " and I come from " << m_country << ".\n";
-        std::cout << "I'm currently a << m_job << " and I'm coding in:\n";
+        cout << "Hello, my name's @" << m_username << ", I'm " << m_age << " and I come from " << m_country << ".\n";
+        cout << "I'm currently a" << m_job << " and I'm coding in:\n";
         
-        for (std::string l : m_languages)
+        for (string l : m_languages)
         {
-            std::cout << "* " << l << "\n";
+            cout << "* " << l << "\n";
         }
     }
 
 private:
-    std::string m_username;
+    string m_username;
     int m_age;
-    std::string m_country;
-    std::string m_job;
-    std::vector<std::string> m_languages;
+    string m_country;
+    string m_job;
+    vector<std::string> m_languages;
 };
 ```
 
