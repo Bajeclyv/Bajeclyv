@@ -23,12 +23,12 @@ public:
 
     void details()
     {
-        cout << "Hello, my name's @" << m_username << ", I'm " << m_age << " and I come from " << m_country << ".\n";
-        cout << "I'm currently a" << m_job << " and I'm coding in:\n";
+        std::cout << "Hello, my name's @" << m_username << ", I'm " << m_age << " and I come from " << m_country << ".\n";
+        std::cout << "I'm currently a" << m_job << " and I'm coding in:\n";
         
         for (string l : m_languages)
         {
-            cout << "* " << l << "\n";
+            std::cout << "* " << l << "\n";
         }
     }
 };
