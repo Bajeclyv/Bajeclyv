@@ -1,20 +1,24 @@
 # Hello, I'm [@Fulbion](https://github.com/Fulbion) 👋
 
-### Person.hpp
+### main.cpp
 ```cpp
-#pragma once
-
-#include <iostream>
-#include <string>
-#include <vector>
-using namespace std; // Cursed line, it's just to make it clear :P
-
 class Person
 {
+private:
+    string m_username;
+    int m_age;
+    string m_country;
+    string m_job;
+    vector<std::string> m_languages;
+
 public:
-    Person(string username, int age, string country, string job, vector<string> languages) :
-        m_username(username), m_age(age), m_country(country), m_job(job), m_languages(languages)
+    Person(string username, int age, string country, string job, vector<string> languages):
     {
+        this->m_username = username;
+        this->m_age = age;
+        this->m_country = country;
+        this->m_job = job
+        this->m_languages = languages;
     }
 
     void details()
@@ -27,19 +31,7 @@ public:
             cout << "* " << l << "\n";
         }
     }
-
-private:
-    string m_username;
-    int m_age;
-    string m_country;
-    string m_job;
-    vector<std::string> m_languages;
 };
-```
-
-### main.cpp
-```cpp
-#include "Person.hpp"
 
 int main()
 {
