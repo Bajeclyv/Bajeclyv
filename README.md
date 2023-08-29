@@ -5,14 +5,14 @@
 class Person
 {
 private:
-    string m_username;
+    std::string m_username;
     int m_age;
-    string m_country;
-    string m_job;
-    vector<std::string> m_languages;
+    std::string m_country;
+    std::string m_job;
+    std::vector<std::string> m_languages;
 
 public:
-    Person(string username, int age, string country, string job, vector<string> languages):
+    Person(std::string username, int age, std::string country, std::string job, std::vector<std::string> languages):
     {
         this->m_username = username;
         this->m_age = age;
