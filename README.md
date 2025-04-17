@@ -1,4 +1,4 @@
-Hello, I'm [@Fulbion](https://github.com/Fulbion) 👋
+Hello, I'm [@Bajeclyv](https://github.com/Bajeclyv) 👋
 ----------------------------------------------------
 
 ### main.cpp
@@ -7,7 +7,7 @@ Hello, I'm [@Fulbion](https://github.com/Fulbion) 👋
 
 int main()
 {
-    Person me("Fulbion", 16);
+    Person me("Bajeclyv");
     
     while (me.isAwake())
         me.code();
